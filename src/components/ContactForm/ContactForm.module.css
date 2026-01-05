@@ -3,7 +3,6 @@
   margin: 0 auto 16px;
   display: flex;
   flex-direction: column;
-
   border: 1px solid #213547;
   border-radius: 4px;
   padding: 14px;
@@ -15,8 +14,7 @@
 }
 .contactFormField {
   padding: 6px;
-
-  border: 1px solid #124e83;
+  border: 1px solid #213547;
   border-radius: 4px;
   outline: transparent;
   transition: border-color 0.3s;
