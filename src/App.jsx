@@ -8,4 +8,15 @@ import initialConacts from "./data/contacts.json";
 
 import "./App.css";
 
+function App() {
+  return (
+    <>
+      <h1>Phonebook</h1>
+      <ContactForm onAdd={addContact} />
+      <SearchBox value={filter} onFilter={setFilter} />
+      <ContactList contacts={visibleContacts} onDelete={deleteContact} />
+    </>
+  );
+}
+
 export default App;
